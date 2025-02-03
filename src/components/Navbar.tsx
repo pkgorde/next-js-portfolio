@@ -64,9 +64,9 @@ const Navbar = () => {
 						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/#experience">Experience</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
+						{/* <li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/#projects">Projects</Link>
-						</li>
+						</li> */}
 						<li className="ml-10 text-sm uppercase hover:border-b hover:text-primary">
 							<Link href="/#contact">Contact</Link>
 						</li>
@@ -135,11 +135,11 @@ const Navbar = () => {
 									Experience
 								</li>
 							</Link>
-							<Link href="/#projects" className="hover:text-primary">
+							{/* <Link href="/#projects" className="hover:text-primary">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
 									Projects
 								</li>
-							</Link>
+							</Link> */}
 
 							<Link href="/#contact" className="hover:text-primary">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
@@ -156,7 +156,7 @@ const Navbar = () => {
 							<p className="uppercase tracking-widest text-primary">Let&#39;s Connect</p>
 							<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
 								<a
-									href="https://www.linkedin.com/in/nosarumen-imuentinyan/"
+									href="https://www.linkedin.com/in/premkgorde/"
 									target="_blank"
 									rel="noreferrer"
 								>
@@ -164,7 +164,7 @@ const Navbar = () => {
 										<FaLinkedinIn title="Linkedin" />
 									</div>
 								</a>
-								<a href="https://github.com/Sir-Rumeh/" target="_blank" rel="noreferrer">
+								<a href="https://github.com/pkgorde/" target="_blank" rel="noreferrer">
 									<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in hover:bg-secondary duration-300">
 										<FaGithub title="GitHub" />
 									</div>

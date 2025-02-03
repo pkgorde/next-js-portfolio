@@ -11,19 +11,20 @@ const About = () => {
 					<p className="uppercase text-xl tracking-widest text-primary">About</p>
 					<h2 className="py-4">Who I Am</h2>
 					<p className="py-2 text-gray-600 text-lg">
-						An Enthusiastic frontend developer with over 3 years of experience developing fast loading
-						and responsive websites that meets customer requirements and achieve business objectives
-						using Typescript, React and other modern technologies while leveraging my experience
-						contributing to a team of software engineers in a Scrum based Agile delivery working
-						environment.
+						I am a data scientist and machine learning researcher with a focus on medical data science and computer vision. 
+						At UC Davis Health, I developed a Retrieval-Augmented Generation (RAG) LLM architecture to improve clinical trial document 
+						analysis and fine-tuned models like GPT-4 and Llama3 for medical applications. My research includes building video 
+						prediction models using LSTMs and CNNs to analyze CT-Scan Angiograms, enhancing the detection of internal 
+						bleeding and aneurysms. I have also worked on AI-driven medical data synthesis and applied advanced frameworks like 
+						OpenSTL for modeling sequential behavior in medical imaging. During my time at Lawrence Livermore National Laboratory, 
+						I engineered feature-extraction techniques for CT scan analysis, improving system health monitoring and reducing downtime.
 					</p>
 					<p className="py-2 text-gray-600 text-lg">
-						I specialize in building mobile responsive front-end UI applications that connect with
-						API’s and other backend technologies. I’m passionate about learning new technologies and
-						understand there is more than one way to accomplish a task. Though I am most proficient in
-						building front-end applications using HTML, CSS, Javascript, and React, I am a quick
-						learner and can pick up new tech stacks as needed. I believe that being a great developer
-						is not using one specific language, but choosing the best tool for the job.
+					As a Founding Software Engineer at Tetsuwan Scientific, I am developing an AI-integrated platform for automating wet 
+					lab robotic workflows. I build full-stack applications using Next.js, React, PostgreSQL, and LangChain, integrating 
+					cloud authentication for seamless user management. My work includes implementing multi-agent AI systems and voice 
+					transcription tools to optimize research data processing. By blending software engineering with lab automation, I aim to 
+					enhance research efficiency and create scalable, AI-driven solutions for scientific applications.
 					</p>
 					<div className="w-[50%]">
 						<Link href="/#projects">

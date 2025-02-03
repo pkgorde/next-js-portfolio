@@ -74,7 +74,7 @@ const Contact = () => {
 			subject,
 			message,
 		};
-		// emailjs.send(emConfig.serviceID, emConfig.templateID, templateParams, emConfig.publicID);
+		emailjs.send(emConfig.serviceID, emConfig.templateID, templateParams, emConfig.publicID);
 		setTimeout(() => {
 			setLoading(false);
 			setShowSuccessMsg(true);
@@ -111,8 +111,8 @@ const Contact = () => {
 									/>
 								</div>
 								<div>
-									<h2 className="py-2">Nosarumen Imuentinyan</h2>
-									<p className="text-xl mt-2">Front-End Developer</p>
+									<h2 className="py-2">Prem Gorde</h2>
+									<p className="text-xl mt-2">Data Scientist/Full Stack Developer</p>
 									<p className="py-4 text-lg">
 										I am available for freelance or full-time positions. Contact me and
 										let&apos;s talk.
@@ -125,7 +125,7 @@ const Contact = () => {
 									</div>
 									<div className="flex items-center justify-between py-4">
 										<a
-											href="https://www.linkedin.com/in/nosarumen-imuentinyan/"
+											href="https://www.linkedin.com/in/premkgorde/"
 											target="_blank"
 											rel="noreferrer"
 										>
@@ -134,7 +134,7 @@ const Contact = () => {
 											</div>
 										</a>
 										<a
-											href="https://github.com/Sir-Rumeh/"
+											href="https://github.com/pkgorde/"
 											target="_blank"
 											rel="noreferrer"
 										>

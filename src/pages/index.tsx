@@ -10,10 +10,10 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>Nosarumen | Front-End Developer</title>
+				<title>Prem | Data Scientist</title>
 				<meta
 					name="description"
-					content="I’m a front-end web developer specialized in usinf react, nextjs and typescript to build exceptional user interface."
+					content="I am a Data scientist, working with medical research data science projects, including LLM integration and full stack support."
 				/>
 				<link rel="icon" href="/fav.ico" />
 			</Head>
@@ -22,7 +22,7 @@ export default function Home() {
 				<About />
 				<Skills />
 				<Experience />
-				<Projects />
+				{/* <Projects /> */}
 				<Contact />
 			</div>
 		</div>
