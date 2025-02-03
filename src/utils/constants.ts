@@ -3,8 +3,8 @@ import NextJS from "public/assets/skills/nextjs.png";
 import Typescript from "public/assets/skills/typescript.png";
 import Node from "public/assets/skills/node.png";
 import Docker from "public/assets/skills/docker.png";
-import Python from "public/assets/skills/python.png"
-import TensorFlow from "public/assets/skills/Tensorflow.png"
+import Python from "public/assets/skills/Python.png"
+import TensorFlow from "public/assets/skills/TensorFlow.png"
 import PyTorch from "public/assets/skills/pytorch.png"
 import ScikitLearn from "public/assets/skills/scikit-learn.png"
 import PostgreSQL from "public/assets/skills/psql.png"
