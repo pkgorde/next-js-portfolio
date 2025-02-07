@@ -77,6 +77,9 @@ export default function BasicTabs({ tabList, tabPanel, initialIndex }: BasicTabs
 							aria-label="basic tabs example"
 							orientation="vertical"
 							variant="scrollable"
+							sx={{
+								minWidth: "200px"
+							}}
 						>
 							{tabList.map((item, index) => (
 								<Tab

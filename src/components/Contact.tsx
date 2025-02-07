@@ -49,7 +49,7 @@ const SuccessMsg = ({
 				isLoader={false}
 			>
 				<div>
-					<img className="scale-75" src="/assets/success.gif" id="spinner" alt="spinner" />
+					<Image className="scale-75" src="/assets/success.gif" id="spinner" alt="spinner" />
 				</div>
 				<h3 className="text-center mt-2">Your message has been sent successfully</h3>
 			</CustomModal>

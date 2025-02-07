@@ -68,7 +68,6 @@ export const skills = [
 ];
 
 
-
 export const projects = [
 	{
 		name: "Whatsapp Web Clone",
