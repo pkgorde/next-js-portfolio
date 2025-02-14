@@ -13,12 +13,12 @@ const Main = () => {
 						<h1 className="py-4 text-gray-700">
 							Hi, I&#39;m <span className="text-primary"> Prem Gorde</span>
 						</h1>
-						<h1 className="py-2 text-gray-700">A Data Scientist/Software Engineer</h1>
+						<h1 className="py-2 text-gray-700">A Software Engineer</h1>
 						<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto text-lg">
-							I&#39;m focused on building powerful Data backed technologies, with state of the art ML models
+							I&#39;m an experienced Data-Science researcher, having worked with high dimensional, unstructured data.
 						</p>
 						<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto text-lg">
-							I also write full stack code in React/Node.js
+							I also do full stack development, integrating and deploying ML models within applications.
 						</p>
 					</div>
 
