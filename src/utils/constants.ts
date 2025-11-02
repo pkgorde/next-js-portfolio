@@ -6,17 +6,20 @@ import Docker from "public/assets/skills/docker.png";
 import Python from "public/assets/skills/Python.png"
 import TensorFlow from "public/assets/skills/TensorFlow.png"
 import PyTorch from "public/assets/skills/pytorch.png"
-import ScikitLearn from "public/assets/skills/scikit-learn.png"
 import PostgreSQL from "public/assets/skills/psql.png"
 import LangChain from "public/assets/skills/langchain.png"
 import GCP from "public/assets/skills/gcp.png"
-//
+import AWS from "public/assets/skills/aws.png"
 import WhatsappClone from "public/assets/projects/whatsapp-web-clone/whatsapp.png";
 import Easymunch from "public/assets/projects/easy-munch/munch.png";
 import ReactDashboard from "public/assets/projects/react-dashboard/dashboard.png";
 import MovieApp from "public/assets/projects/react-movie-app/movie.png";
 
 export const skills = [
+    {
+        name: "AWS",
+        image: AWS,
+    },
     {
         name: "Python",
         image: Python,
@@ -28,10 +31,6 @@ export const skills = [
     {
         name: "PyTorch",
         image: PyTorch,
-    },
-    {
-        name: "Scikit-Learn",
-        image: ScikitLearn,
     },
     {
         name: "PostgreSQL",

@@ -3,6 +3,31 @@ import Details from "./ExperienceDetails";
 import BasicTabs from "./Tabs";
 
 const Experience = () => {
+	const AWSExperience = {
+		companyName: "Amazon Web Services (AWS)",
+		role: "Software Development Engineer",
+		duration: "July 2025 - Present",
+		activities: [
+			"Contributed to the SageMaker Unified Studio Data Engineering team, developing next-generation machine learning workflow and model management features integrated with AWS's latest service offerings.",
+			"Spearheaded UI development for the new SageMaker Model Hub: Foundation Models, building scalable React/TypeScript components and integrating AWS APIs and CloudFormation resources, improving model discovery and deployment efficiency by 40%.",
+			"Collaborated cross-functionally with Product Managers, UX Designers, and Senior/Principal Engineers to deliver high-impact releases under strict deadlines, consistently meeting AWS's Raising the Bar engineering standards.",
+			"Developed and maintained data ingestion and monitoring pipelines for SageMaker Unified Studio and EMR Studio using AWS Lambda, S3, CloudWatch, and Glue, ensuring high availability and operational excellence.",
+			"Handled on-call responsibilities, triaging and resolving production incidents across distributed services to maintain ≥99.9% reliability SLAs and deliver rapid customer issue resolution.",
+			"Authored internal documentation, design proposals, and operational playbooks to improve team onboarding, knowledge sharing, and long-term system scalability.",
+		],
+	};
+
+	const TMobileExperience = {
+		companyName: "T-Mobile (Contract via IOPEX Technologies)",
+		role: "Software Engineer",
+		duration: "April 2025 - July 2025",
+		activities: [
+			"Developed and deployed multiple full-stack applications across Agile teams, using GitLab, Docker, and Portainer CI/CD pipelines.",
+			"Architected a Statistical Anomaly Detection platform for time-series voice lane data using Python (pandas, scikit-learn, SQLAlchemy); delivered interactive dashboards via Streamlit for KPI monitoring.",
+			"Led design and delivery of a data visualization dashboard platform with React.js/Vite frontend, Node.js/Express APIs, and PostgreSQL backend; managed end-to-end ETL and deployment workflows.",
+		],
+	};
+
 	const TetsuwanExperience = {
 		companyName: "Tetsuwan Scientific",
 		role: "Founding Software Engineer",
@@ -60,8 +85,10 @@ const Experience = () => {
 				<h2 className="py-4">Where I&apos;ve Worked</h2>
 				<div className="mt-2 ">
 					<BasicTabs
-						tabList={["Tetsuwan Scientific", "UC Davis Health ML", "UC Davis Health DS", "LLNL"]}
+						tabList={["AWS", "T-Mobile", "Tetsuwan Scientific", "UC Davis Health ML", "UC Davis Health DS", "LLNL"]}
 						tabPanel={[
+							<Details key={"AWS"} experienceDetails={AWSExperience} />,
+							<Details key={"T-Mobile"} experienceDetails={TMobileExperience} />,
 							<Details key={"Tetsuwan Scientific"} experienceDetails={TetsuwanExperience} />,
 							<Details key={"UC Davis Health ML"} experienceDetails={UCDavisMLExperience} />,
 							<Details key={"UC Davis Health DS"} experienceDetails={UCDavisDSExperience} />,

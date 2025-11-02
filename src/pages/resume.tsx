@@ -4,9 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaGithub, FaLinkedinIn, FaDownload } from "react-icons/fa";
 import ResumeShot from "public/assets/PremGorde_DataScience_ML.jpg";
+import ResumeShot1 from "public/assets/Prem_s_Resume_SWE_page-0001.jpg"
+import ResumeShot2 from "public/assets/Prem_s_Resume_SWE_page-0002.jpg"
 
 const ResumePdf = () => {
-	const resumePdfLink = "/assets/PremGorde_DataScience_ML.pdf";
+	const resumePdfLink = "/assets/Prem_s_Resume_SWE.pdf";
 	return (
 		<>
 			<div className="relative">
@@ -17,7 +19,8 @@ const ResumePdf = () => {
 						</div>
 					</a>
 				</div>
-				<Image src={ResumeShot} className="rounded-xl " alt="/" loading="lazy" />
+				<Image src={ResumeShot1} className="rounded-xl " alt="/" loading="lazy" />
+				<Image src={ResumeShot2} className="rounded-xl " alt="/" loading="lazy" />
 			</div>
 		</>
 	);

@@ -11,20 +11,19 @@ const About = () => {
 					<p className="uppercase text-xl tracking-widest text-primary">About</p>
 					<h2 className="py-4">Who I Am</h2>
 					<p className="py-2 text-gray-600 text-lg">
-						I am a data scientist and machine learning researcher with a focus on medical data science and computer vision. 
-						At UC Davis Health, I developed a Retrieval-Augmented Generation (RAG) LLM architecture to improve clinical trial document 
-						analysis and fine-tuned models like GPT-4 and Llama3 for medical applications. My research includes building video 
-						prediction models using LSTMs and CNNs to analyze CT-Scan Angiograms, enhancing the detection of internal 
-						bleeding and aneurysms. I have also worked on AI-driven medical data synthesis and applied advanced frameworks like 
-						OpenSTL for modeling sequential behavior in medical imaging. During my time at Lawrence Livermore National Laboratory, 
-						I engineered feature-extraction techniques for CT scan analysis, improving system health monitoring and reducing downtime.
+						I am a Software Development Engineer at Amazon Web Services, working on the SageMaker Unified Studio Data 
+						Engineering team. I build scalable machine learning infrastructure and develop next-generation workflow management 
+						features. I spearheaded UI development for the SageMaker Model Hub: Foundation Models using React and TypeScript, 
+						improving model discovery and deployment efficiency by 40%. My work spans full-stack development, data pipeline 
+						engineering with AWS Lambda and Glue, and maintaining high-availability distributed systems with 99.9% reliability.
 					</p>
 					<p className="py-2 text-gray-600 text-lg">
-					As a Founding Software Engineer at Tetsuwan Scientific, I am developing an AI-integrated platform for automating wet 
-					lab robotic workflows. I build full-stack applications using Next.js, React, PostgreSQL, and LangChain, integrating 
-					cloud authentication for seamless user management. My work includes implementing multi-agent AI systems and voice 
-					transcription tools to optimize research data processing. By blending software engineering with lab automation, I aim to 
-					enhance research efficiency and create scalable, AI-driven solutions for scientific applications.
+						Previously, I focused on machine learning research and AI applications across healthcare and lab automation. At UC 
+						Davis Health, I built RAG systems for clinical trial analysis using fine-tuned LLMs (GPT-4, Llama3), and developed 
+						video prediction models to detect aneurysms in CT scans. At Tetsuwan Scientific, I engineered an AI-integrated platform 
+						for wet lab robotics, implementing multi-agent systems and voice transcription to accelerate bio-chemistry research 
+						workflows by 250%. I've also contributed to statistical analysis at Lawrence Livermore National Laboratory and built 
+						full-stack anomaly detection platforms at T-Mobile.
 					</p>
 					<div className="w-[50%]">
 						<Link href="/#projects">
