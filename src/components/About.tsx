@@ -22,7 +22,7 @@ const About = () => {
 						Davis Health, I built RAG systems for clinical trial analysis using fine-tuned LLMs (GPT-4, Llama3), and developed 
 						video prediction models to detect aneurysms in CT scans. At Tetsuwan Scientific, I engineered an AI-integrated platform 
 						for wet lab robotics, implementing multi-agent systems and voice transcription to accelerate bio-chemistry research 
-						workflows by 250%. I've also contributed to statistical analysis at Lawrence Livermore National Laboratory and built 
+						workflows by 250%. I&apos;ve also contributed to statistical analysis at Lawrence Livermore National Laboratory and built 
 						full-stack anomaly detection platforms at T-Mobile.
 					</p>
 					<div className="w-[50%]">
